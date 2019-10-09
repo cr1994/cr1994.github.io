@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[SEO--搜索引擎优化]]></title>
+    <url>%2FSEO-%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E4%BC%98%E5%8C%96%2F</url>
+    <content type="text"><![CDATA[SEO(Search English Optimization)，搜索引擎优化。自从有了搜索引擎，SEO便诞生了。 SEO简介意义为了提升网页在搜索引擎自然搜索结果中的收录数量以及排序位置而做的优化行为。简言之，就是希望百度等搜索引擎能多多我们收录精心制作后的网站，并且在别人访问时网站能排在前面。 分类分为白帽SEO和黑帽SEO。白帽SEO，起到了改良和规范网站设计的作用，使网站对搜索引擎和用户更加友好，并且网站也能从搜索引擎中获取合理的流量，这是搜索引擎鼓励和支持的。黑帽SEO，利用和放大搜索引擎政策缺陷来获取更多用户的访问量，这类行为大多是欺骗搜索引擎，一般搜索引擎公司是不支持与鼓励的。本文针对白帽SEO。 前端SEO网站结构布局优化一般而言，建立的网站结构层次越少，越容易被“蜘蛛”抓取，也就容易被收录。一般中小型网站目录结构超过三级，“蜘蛛”便不愿意往下爬。在网站结构优化方面，应提倡扁平化结构。 控制首页链接数量网站首页是权重最高的地方，如果首页链接太少，没有“桥”，“蜘蛛”不能继续往下爬到内页，直接影响网站收录数量。但是首页链接也不能太多，一旦太多，没有实质性的链接，很容易影响用户体验，也会降低网站首页的权重，收录效果也不好。因此对于中小型企业网站，建议首页链接在100个以内，链接的性质可以包含页面导航、底部导航、锚文字链接等等，注意链接要建立在用户的良好体验和引导用户获取信息的基础之上。 扁平化的目录层次尽量让“蜘蛛”只要跳转3次，就能到达网站内的任何一个内页。扁平化的目录结构，比如：“植物”–&gt; “水果” –&gt; “苹果”、“桔子”、“香蕉”，通过3级就能找到香蕉了。 导航优化导航应该尽量采用文字方式，也可以搭配图片导航，但是图片代码一定要进行优化，&lt;img&gt;标签必须添加“alt”和“title”属性，告诉搜索引擎导航的定位，做到即使图片未能正常显示时，用户也能看到提示文字。其次，在每一个网页上应该加上面包屑导航，好处：从用户体验方面来说，可以让用户了解当前所处的位置以及当前页面在整个网站中的位置，帮助用户很快了解网站组织形式，从而形成更好的位置感，同时提供了返回各个页面的接口，方便用户操作；对“蜘蛛”而言，能够清楚的了解网站结构，同时还增加了大量的内部链接，方便抓取，降低跳出率。 网站的结构布局 页面头部：logo及主导航，以及用户的信息。 页面主体：左边正文，包括面包屑导航及正文；右边放热门文章及相关文章，好处：留住访客，让访客多停留，对“蜘蛛”而言，这些文章属于相关链接，增强了页面相关性，也能增强页面的权重。 页面底部：版权信息和友情链接。 特别注意：分页导航写法，推荐写法：“首页 1 2 3 4 5 6 7 8 9 下拉框”，这样“蜘蛛”能够根据相应页码直接跳转，下拉框直接选择页面跳转。而下面的写法是不推荐的，“首页 下一页 尾页”，特别是当分页数量特别多时，“蜘蛛”需要经过很多次往下爬，才能抓取，会很累、会容易放弃。 控制页面的大小减少http请求，提高网站的加载速度。一个页面最好不要超过100k，太大，页面加载速度慢。当速度很慢时，用户体验不好，留不住访客，并且一旦超时，“蜘蛛”也会离开。 网页代码优化 &lt;title&gt;：标题，只强调重点即可，尽量把重要的关键词放在前面，关键词不要重复出现，尽量做到每个页面的&lt;title&gt;标题中不要设置相同的内容。 &lt;meta keywords&gt;：关键词，列举出几个页面的重要关键字即可，切记过分堆砌。 &lt;meta description&gt;：网页描述，需要高度概括网页内容，切记不能太长，过分堆砌关键词，每个页面也要有所不同。 &lt;body&gt;中的标签：尽量让代码语义化，在适当的位置使用适当的标签，用正确的标签做正确的事。让阅读源码者和“蜘蛛”都一目了然。比如：h1-h6是用于标题类的，&lt;nav&gt;标签是用来设置页面主导航的等。 &lt;a&gt;：页内链接，要加“title” 属性加以说明，让访客和 “蜘蛛” 知道。而外部链接，链接到其他网站的，则需要加上rel=”nofollow”属性, 告诉 “蜘蛛” 不要爬，因为一旦“蜘蛛”爬了外部链接之后，就不会再回来了。 &lt;h1&gt;：“蜘蛛” 认为它最重要，若不喜欢&lt;h1&gt;的默认样式可以通过CSS设置。尽量做到正文标题用&lt;h1&gt;标签，副标题用&lt;h2&gt;标签, 而其它地方不应该随便乱用 h 标题标签。 &lt;br&gt;标签：只用于文本内容的换行 表格应该使用&lt;caption&gt;表格标题标签 &lt;img&gt;：应使用 “alt” 属性加以说明 &lt;strong&gt;、&lt;em&gt;: 需要强调时使用。&lt;strong&gt;标签在搜索引擎中能够得到高度的重视，它能突出关键词，表现重要的内容，&lt;em&gt;标签强调效果仅次于标签。&lt;b&gt;、&lt;i&gt;标签: 只是用于显示效果时使用，在SEO中不会起任何效果。 文本缩进不要使用特殊符号&nbsp; 应当使用CSS进行设置。 版权符号不要使用特殊符号 &copy; 可以直接使用输入法或复制此处符号：©。 巧妙利用CSS布局，将重要内容的HTML代码放在最前面，最前面的内容被认为是最重要的，优先让“蜘蛛”读取，进行内容关键词抓取。 重要内容不要用JS输出，因为“蜘蛛”不认识 尽量少使用iframe框架,因为“蜘蛛”一般不会读取其中的内容 谨慎使用display：none ：对于不想显示的文字内容，应当设置z-index或设置到浏览器显示器之外。因为搜索引擎会过滤掉display:none其中的内容。 js代码如果是操作DOM操作，应尽量放在body结束标签之前，html代码之后。 注意： 本文摘录自CSDN博主「徐小七七」的原创文章原文链接：https://blog.csdn.net/xustart7720/article/details/79960591]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>SEO</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[常用js方法小结]]></title>
+    <url>%2F%E5%B8%B8%E7%94%A8js%E6%96%B9%E6%B3%95%E5%B0%8F%E7%BB%93%2F</url>
+    <content type="text"><![CDATA[在写网页的过程中经常会用到一些特定功能的函数，本文记录一些常用的js方法，以便随时查用。 获取地址栏参数12345678910function GetQueryString(name)&#123; var reg = new RegExp("(^|&amp;)" + name + "=([^&amp;]*)(&amp;|$)", "i"); var r = window.location.search.substr(1).match(reg); //获取url中"?"符后的字符串并正则匹配 var context = ""; if (r != null) context = r[2]; reg = null; r = null; return context == null || context == "" || context == "undefined" ? "" : context; &#125; 验证手机号12345678function checkTel(str)&#123; var myreg=/^[1][0-9]&#123;10&#125;$/; if(!myreg.test(str))&#123; return false &#125;else&#123; return true &#125;&#125;]]></content>
+      <categories>
+        <category>javaScript</category>
+      </categories>
+      <tags>
+        <tag>javaScript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[app内嵌h5页面问题小结]]></title>
+    <url>%2Fapp%E5%86%85%E5%B5%8Ch5%E9%A1%B5%E9%9D%A2%E9%97%AE%E9%A2%98%E5%B0%8F%E7%BB%93%2F</url>
+    <content type="text"><![CDATA[原生app能内嵌H5，是因为有了webview这个app内嵌浏览器视图，使得我们可以开发html然后加载到app中（原理几乎跟pc端请求、加载、渲染是一样的），一般的当我们将h5开发好后就可以有两种方式请求到原生app中，一个是将html代码放到服务器上，一个是放在当前app项目目录中本地请求（一般用于调试）。 app与内嵌h5页面实现交互通过函数的调用实现。app调用js方法时前端提供方法名及参数即可，js调用app的方法时需区分设备是ios还是安卓，然后分别调用。 判断是ios还是安卓123456var ua = navigator.userAgent.toLowerCase();if(/iphone|ipad|ipod/.test(ua))&#123; console.log('IOS')&#125;else&#123; console.log('Android')&#125; 调用app原生方法示例具体如何使用应以实际ios和安卓人员提供的方法为准，以下示例仅供参考。 12345678910111213141516function jumpCustom(id)&#123; if(/iphone|ipad|ipod/.test(ua))&#123; if(id)&#123; window.webkit.messageHandlers.openCustomView.postMessage([id]); &#125;else&#123; window.webkit.messageHandlers.openCustomView.postMessage(null); &#125; &#125;else&#123; if(id)&#123; window.android.openCustomView(id); &#125;else&#123; window.android.openCustomView(); &#125; &#125;&#125; ios内嵌h5页面遇到的问题时间转为毫秒时不支持“2018-08-30”的格式1234// 报错，NANnew Date('2018-08-30').getTime()// 需转换成 '/'new Date('2018-08-30'.replace(/-/g,'/')).getTime() ios在内嵌网页的url后带中文参数传参时如果有中文参数会导致接收到的参数被编码或者页面空白，此时需处理所传参数。在h5页面中做如下处理： 1234567891011121314151617//得到页面的urlvar initUrl = window.location.href;//对含有中文的url进行解码,注意是两次解码var URL_decode = decodeURI(decodeURI(initUrl));// 获取地址栏参数function GetQueryString(name)&#123; var reg = new RegExp("(^|&amp;)" + name + "=([^&amp;]*)(&amp;|$)", "i"); var r = window.location.search.substr(1).match(reg); //获取url中"?"符后的字符串并正则匹配 var context = ""; if (r != null) context = r[2]; reg = null; r = null; return context == null || context == "" || context == "undefined" ? "" : context; &#125;// url传参时获取初始值var initTit = decodeURI(GetQueryString('title'));]]></content>
+      <categories>
+        <category>h5</category>
+      </categories>
+      <tags>
+        <tag>h5</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[mip改造小记]]></title>
+    <url>%2Fmip%E6%94%B9%E9%80%A0%E5%B0%8F%E8%AE%B0%2F</url>
+    <content type="text"><![CDATA[MIP（Mobile Instant Pages - 移动网页加速器），是一套应用于移动网页的开放性技术标准。通过提供 MIP-HTML 规范、MIP-JS 运行环境以及 MIP-Cache 页面缓存系统，实现移动网页加速。 mip简介MIP 主要由三部分组成： MIP-HTML：基于 HTML 中的基础标签制定了全新的规范，通过对一部分基础标签的使用限制或功能扩展，使 HTML 能够展现更加丰富的内容。 MIP-JS：可以保证 MIP-HTML 页面的快速渲染。 MIP-Cache：用于实现 MIP 页面的高速缓存，从而进一步提高页面性能。 mip页面改造mip的页面改造需要符合mip规范，大致有以下几点： css： mip页面中不允许使用行内样式 如果需要补充样式，仅允许在 &lt;head&gt;标签中使用 &lt;style mip-custom&gt;&lt;/style&gt; ，且只可出现一次 js: mip页面中不允许使用自定义的js，也不允许引入除了官方组件（包括站长组件）之外的js 所有页面 必须 在 &lt;body&gt; 的 最后 编写或引用 mip 相关的 js 如有需要，可使用 mip-script 标签进行少量js的书写 html: 所有页面 必须 包含 &lt;html&gt;, &lt;head&gt;, &lt;body&gt; a 标签的href属性为必填，锚点定位仍可用，但不允许使用 ‘javascript:;’ 之类，不允许使用 target 属性，具体可参看官网要求 img 标签需替换为 mip-img ,同时应设定好图片的宽高属性（width 、height） form 等表单元素的使用需参看 mip 官网说明 图片轮播、tab切换等功能，均可通过 mip 提供的官方组件实现本文仅列常见几点以供参考，具体规范请详读官网。 mip开发站长组件fork mip的官方站长组件仓库 浏览器进入 GitHub 中 MIP 官方组件代码仓库，点击右上角的 fork 按钮，fork 完成后，在你 GitHub 主页下的 Repositories 下会多出一个 mip2-extensions-platform 仓库 新建文件夹 mip-project，进入该文件夹右键 -&gt; Git Bash Here -&gt; git clone https://项目地址tips: git窗口中复制快捷键:ctrl + insert 粘贴：shift + insert 创建开发项目 mip-project 文件夹下进入 sites ，路径下输入cmd打开命令窗口，下载 mip2-cli 1npm install mip2-cli -g 创建项目 12mip2 init 项目名称（以cngold.org为例）cd cngold.org 新增组件 1mip2 add mip-jt-stock 调试预览 1mip2 dev 检验 1mip2 validate -c ./components 检查js规范：根据提示进行规范修改 1234// 安装eslintnpm install -g eslint // 进入索要检测的js文件所在目录eslint mip-jt-stock.js 提交 进入 mip-project 目录，添加仓库 12345678// 对比本地仓库与线上仓库的改动git status// 查看自己当前git仓库的configure,origin代表自己的仓库git remote -v// 添加新的远程仓库git remote add mip2-upstream（仓库名，可自定义） 原项目地址（即mip官方站长组件库对应地址）// 再次查看当前git仓库的configure，若出现mip2-upstream（或自定义的仓库名），则为添加成功git remote -v 提交代码 123456// . 代表添加所有改动文件，也可自行指定所要提交的文件git add .// 注释说明git commit -m &apos;注释内容&apos;// 提交到自己的仓库git push origin 发起 Pull Request，申请合并到官方站长组件库 打开自己的 github ，找到fork的项目 进入项目， new pull request -&gt; create pull create，添加说明内容并提交审核（具体提交规范参看官网） Pull request 提交后，会自动触发持续集成的任务，如代码规范检查、部署预览等，在 Conversation 选项卡可以看到实时状态。如果有不通过的，需要再次修改提交，确保所有检查项都成功通过，官方才能审核合入 并不是每次提交都需要 pull request ，在同一分支下 push 代码时，所有的 commits 都会被自动追加到 pull request 后面 在 marge 到原项目仓库地址后，即为该条 pull request 关闭，再次提交时需重新发起。 mip-cacheMIP-Cache 给所有符合规范的 MIP 页面提供 CDN 缓存服务，能够主动的提高页面加载速度，为使用 MIP-Cache 服务的页面上的图片、CSS 文件等资源提供缓存服务，这样能做到所有 HTTP 请求来自于同源，能够加速加载速度，并且缓存后的页面都是 HTTPS 的，安全性更高。其他描述请参看官网。 如何快速更新 mip-cache 登录百度账号之后，进入 https://ziyuan.baidu.com/mip/index ，选择对应站点 获取Authkey http站点接口调用地址：http://c.mipcdn.com/update-ping/c/urlhttps站点接口调用地址：http://c.mipcdn.com/update-ping/c/s/url注：https://mip.xxx.com/ 和 https://mip.xxx.com在MIPCache中属于不同的URL链接，请务必保证mip数据中提交的URL链接和百度收录链接保持一致。 运行清除缓存的代码，以php为例，本地开启 WAMP ，进入 www 目录，将示例代码放入页面，进入 localhost 访问页面，是否清除缓存成功请参看百度（status 为0） 1234567891011$api = 'http://c.mipcdn.com/update-ping/c/';$postData = 'key=348d7e884c581428395cec452bc32032';$url = $api.urlencode('m.120ask.com/askg/bd_detail/39372771');$ch = curl_init();curl_setopt($ch, CURLOPT_URL, $url);curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);curl_setopt($ch, CURLOPT_POST, 1);curl_setopt($ch, CURLOPT_POSTFIELDS, $postData);$result = curl_exec($ch);curl_close($ch);echo $result;]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>mip</tag>
+      </tags>
+  </entry>
+</search>

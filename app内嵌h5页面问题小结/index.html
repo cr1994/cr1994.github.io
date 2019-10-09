@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="h5,">
 
 
 
@@ -79,17 +79,18 @@
 
 
 
-<meta name="description" content="陈蓉的BLOG">
-<meta name="keywords" content="前端，html5，javascript">
-<meta property="og:type" content="website">
-<meta property="og:title" content="陈蓉的BLOG">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="原生app能内嵌H5，是因为有了webview这个app内嵌浏览器视图，使得我们可以开发html然后加载到app中（原理几乎跟pc端请求、加载、渲染是一样的），一般的当我们将h5开发好后就可以有两种方式请求到原生app中，一个是将html代码放到服务器上，一个是放在当前app项目目录中本地请求（一般用于调试）。">
+<meta name="keywords" content="h5">
+<meta property="og:type" content="article">
+<meta property="og:title" content="app内嵌h5页面问题小结">
+<meta property="og:url" content="http://yoursite.com/app内嵌h5页面问题小结/index.html">
 <meta property="og:site_name" content="陈蓉的BLOG">
-<meta property="og:description" content="陈蓉的BLOG">
+<meta property="og:description" content="原生app能内嵌H5，是因为有了webview这个app内嵌浏览器视图，使得我们可以开发html然后加载到app中（原理几乎跟pc端请求、加载、渲染是一样的），一般的当我们将h5开发好后就可以有两种方式请求到原生app中，一个是将html代码放到服务器上，一个是放在当前app项目目录中本地请求（一般用于调试）。">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2019-10-09T05:37:19.195Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="陈蓉的BLOG">
-<meta name="twitter:description" content="陈蓉的BLOG">
+<meta name="twitter:title" content="app内嵌h5页面问题小结">
+<meta name="twitter:description" content="原生app能内嵌H5，是因为有了webview这个app内嵌浏览器视图，使得我们可以开发html然后加载到app中（原理几乎跟pc端请求、加载、渲染是一样的），一般的当我们将h5开发好后就可以有两种方式请求到原生app中，一个是将html代码放到服务器上，一个是放在当前app项目目录中本地请求（一般用于调试）。">
 
 
 
@@ -119,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/">
+  <link rel="canonical" href="http://yoursite.com/app内嵌h5页面问题小结/">
 
 
 
 
 
-  <title>陈蓉的BLOG</title>
+  <title>app内嵌h5页面问题小结 | 陈蓉的BLOG</title>
   
 
 
@@ -144,8 +145,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
     <!-- fork me on github -->
     <a href="https://github.com/cr1994/" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewbox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"/><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"/><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"/></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
@@ -282,305 +282,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/SEO-搜索引擎优化/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Chen Rong">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/uploads/avatar.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="陈蓉的BLOG">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/SEO-搜索引擎优化/" itemprop="url">SEO--搜索引擎优化</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-10-09T16:12:17+08:00">
-                2019-10-09
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/随笔/" itemprop="url" rel="index">
-                    <span itemprop="name">随笔</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>SEO(Search English Optimization)，搜索引擎优化。自从有了搜索引擎，SEO便诞生了。</p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/SEO-搜索引擎优化/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/常用js方法小结/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Chen Rong">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/uploads/avatar.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="陈蓉的BLOG">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/常用js方法小结/" itemprop="url">常用js方法小结</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-10-09T13:46:16+08:00">
-                2019-10-09
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/javaScript/" itemprop="url" rel="index">
-                    <span itemprop="name">javaScript</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>在写网页的过程中经常会用到一些特定功能的函数，本文记录一些常用的js方法，以便随时查用。</p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/常用js方法小结/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
 
   
 
@@ -610,9 +314,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/app内嵌h5页面问题小结/" itemprop="url">app内嵌h5页面问题小结</a></h1>
+          <h1 class="post-title" itemprop="name headline">app内嵌h5页面问题小结</h1>
         
 
         <div class="post-meta">
@@ -668,153 +370,8 @@
           
 
           
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p> 原生app能内嵌H5，是因为有了webview这个app内嵌浏览器视图，使得我们可以开发html然后加载到app中（原理几乎跟pc端请求、加载、渲染是一样的），一般的当我们将h5开发好后就可以有两种方式请求到原生app中，一个是将html代码放到服务器上，一个是放在当前app项目目录中本地请求（一般用于调试）。</p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/app内嵌h5页面问题小结/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/mip改造小记/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Chen Rong">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/uploads/avatar.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="陈蓉的BLOG">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/mip改造小记/" itemprop="url">mip改造小记</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-10-08T16:58:30+08:00">
-                2019-10-08
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/随笔/" itemprop="url" rel="index">
-                    <span itemprop="name">随笔</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
+            <span class="post-meta-divider">|</span>
+            <span id="busuanzi_value_page_pv"></span>次阅读
           
 
           
@@ -834,16 +391,21 @@
       
 
       
-        
-          <p>MIP（Mobile Instant Pages - 移动网页加速器），是一套应用于移动网页的开放性技术标准。通过提供 MIP-HTML 规范、MIP-JS 运行环境以及 MIP-Cache 页面缓存系统，实现移动网页加速。</p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/mip改造小记/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
+        <p> 原生app能内嵌H5，是因为有了webview这个app内嵌浏览器视图，使得我们可以开发html然后加载到app中（原理几乎跟pc端请求、加载、渲染是一样的），一般的当我们将h5开发好后就可以有两种方式请求到原生app中，一个是将html代码放到服务器上，一个是放在当前app项目目录中本地请求（一般用于调试）。</p>
+<a id="more"></a>
+
+<h1 id="app与内嵌h5页面实现交互"><a href="#app与内嵌h5页面实现交互" class="headerlink" title="app与内嵌h5页面实现交互"></a><font color="#fc6423">app与内嵌h5页面实现交互</font></h1><p>通过函数的调用实现。app调用js方法时前端提供方法名及参数即可，js调用app的方法时需区分设备是ios还是安卓，然后分别调用。</p>
+<h2 id="判断是ios还是安卓"><a href="#判断是ios还是安卓" class="headerlink" title="判断是ios还是安卓"></a>判断是ios还是安卓</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> ua = navigator.userAgent.toLowerCase();</span><br><span class="line"><span class="keyword">if</span>(<span class="regexp">/iphone|ipad|ipod/</span>.test(ua))&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'IOS'</span>)</span><br><span class="line">&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'Android'</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="调用app原生方法示例"><a href="#调用app原生方法示例" class="headerlink" title="调用app原生方法示例"></a>调用app原生方法示例</h2><p>具体如何使用应以实际ios和安卓人员提供的方法为准，以下示例仅供参考。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">jumpCustom</span>(<span class="params">id</span>)</span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(<span class="regexp">/iphone|ipad|ipod/</span>.test(ua))&#123;</span><br><span class="line">		<span class="keyword">if</span>(id)&#123;</span><br><span class="line">			<span class="built_in">window</span>.webkit.messageHandlers.openCustomView.postMessage([id]);</span><br><span class="line">		&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">			<span class="built_in">window</span>.webkit.messageHandlers.openCustomView.postMessage(<span class="literal">null</span>);</span><br><span class="line">		&#125;</span><br><span class="line">		</span><br><span class="line">	&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">		<span class="keyword">if</span>(id)&#123;</span><br><span class="line">			<span class="built_in">window</span>.android.openCustomView(id);</span><br><span class="line">		&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">			<span class="built_in">window</span>.android.openCustomView();</span><br><span class="line">		&#125;	</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="ios内嵌h5页面遇到的问题"><a href="#ios内嵌h5页面遇到的问题" class="headerlink" title="ios内嵌h5页面遇到的问题"></a><font color="#fc6423">ios内嵌h5页面遇到的问题</font></h1><h2 id="时间转为毫秒时不支持“2018-08-30”的格式"><a href="#时间转为毫秒时不支持“2018-08-30”的格式" class="headerlink" title="时间转为毫秒时不支持“2018-08-30”的格式"></a>时间转为毫秒时不支持“2018-08-30”的格式</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 报错，NAN</span></span><br><span class="line"><span class="keyword">new</span> <span class="built_in">Date</span>(<span class="string">'2018-08-30'</span>).getTime()</span><br><span class="line"><span class="comment">// 需转换成 '/'</span></span><br><span class="line"><span class="keyword">new</span> <span class="built_in">Date</span>(<span class="string">'2018-08-30'</span>.replace(<span class="regexp">/-/g</span>,<span class="string">'/'</span>)).getTime()</span><br></pre></td></tr></table></figure>
+
+<h2 id="ios在内嵌网页的url后带中文参数"><a href="#ios在内嵌网页的url后带中文参数" class="headerlink" title="ios在内嵌网页的url后带中文参数"></a>ios在内嵌网页的url后带中文参数</h2><p>传参时如果有中文参数会导致接收到的参数被编码或者页面空白，此时需处理所传参数。在h5页面中做如下处理：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//得到页面的url</span></span><br><span class="line"><span class="keyword">var</span> initUrl = <span class="built_in">window</span>.location.href;</span><br><span class="line"><span class="comment">//对含有中文的url进行解码,注意是两次解码</span></span><br><span class="line"><span class="keyword">var</span> URL_decode = <span class="built_in">decodeURI</span>(<span class="built_in">decodeURI</span>(initUrl));</span><br><span class="line"><span class="comment">// 获取地址栏参数</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">GetQueryString</span>(<span class="params">name</span>)</span>&#123;</span><br><span class="line">	<span class="keyword">var</span> reg = <span class="keyword">new</span> <span class="built_in">RegExp</span>(<span class="string">"(^|&amp;)"</span> + name + <span class="string">"=([^&amp;]*)(&amp;|$)"</span>, <span class="string">"i"</span>);</span><br><span class="line">	<span class="keyword">var</span> r = <span class="built_in">window</span>.location.search.substr(<span class="number">1</span>).match(reg);  <span class="comment">//获取url中"?"符后的字符串并正则匹配            </span></span><br><span class="line">	<span class="keyword">var</span> context = <span class="string">""</span>;</span><br><span class="line">	<span class="keyword">if</span> (r != <span class="literal">null</span>)</span><br><span class="line">		context = r[<span class="number">2</span>];</span><br><span class="line">	reg = <span class="literal">null</span>;</span><br><span class="line">	r = <span class="literal">null</span>;</span><br><span class="line">	<span class="keyword">return</span> context == <span class="literal">null</span> || context == <span class="string">""</span> || context == <span class="string">"undefined"</span> ? <span class="string">""</span> : context; </span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// url传参时获取初始值</span></span><br><span class="line"><span class="keyword">var</span> initTit = <span class="built_in">decodeURI</span>(GetQueryString(<span class="string">'title'</span>));</span><br></pre></td></tr></table></figure>
+
+
       
     </div>
     
@@ -858,14 +420,40 @@
 
     <footer class="post-footer">
       
-
+        <div class="post-tags">
+          
+            <a href="/tags/h5/" rel="tag"><i class="fa fa-tag"></i> h5</a>
+          
+        </div>
       
 
       
+      
+      
 
       
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/mip改造小记/" rel="next" title="mip改造小记">
+                <i class="fa fa-chevron-left"></i> mip改造小记
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/常用js方法小结/" rel="prev" title="常用js方法小结">
+                常用js方法小结 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
       
-        <div class="post-eof"></div>
+
+      
       
     </footer>
   </div>
@@ -875,10 +463,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -886,6 +475,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -906,8 +499,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -985,6 +587,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#app与内嵌h5页面实现交互"><span class="nav-number">1.</span> <span class="nav-text">app与内嵌h5页面实现交互</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#判断是ios还是安卓"><span class="nav-number">1.1.</span> <span class="nav-text">判断是ios还是安卓</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#调用app原生方法示例"><span class="nav-number">1.2.</span> <span class="nav-text">调用app原生方法示例</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#ios内嵌h5页面遇到的问题"><span class="nav-number">2.</span> <span class="nav-text">ios内嵌h5页面遇到的问题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#时间转为毫秒时不支持“2018-08-30”的格式"><span class="nav-number">2.1.</span> <span class="nav-text">时间转为毫秒时不支持“2018-08-30”的格式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ios在内嵌网页的url后带中文参数"><span class="nav-number">2.2.</span> <span class="nav-text">ios在内嵌网页的url后带中文参数</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1136,6 +754,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
